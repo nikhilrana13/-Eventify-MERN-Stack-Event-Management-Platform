@@ -93,3 +93,5 @@ Scheduler: Node-Cron
 Attendee → Homepage access, event booking & profile management.
 
 Host → Dashboard access, event management, revenue tracking.
+
+Live Link : [https://eventify-mern-stack-event-management-sts4.onrender.com/]
