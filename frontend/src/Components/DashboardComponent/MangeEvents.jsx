@@ -10,7 +10,7 @@ import {
   TableHeader,
   TableRow,
 } from "../ui/table.jsx"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar.jsx"
 import { Button } from '../ui/button.jsx';
 import { NavLink } from 'react-router-dom';
 import toast from 'react-hot-toast';
