@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import { NavLink, useParams } from 'react-router-dom'
 import { ArrowLeft, Calendar, ClockAlert, Share, Star, Ticket, LocationEdit, Loader2 } from 'lucide-react'
 import { Button } from '../ui/button'
-import mapimg from "../../assets/map.png"
+import mapimg from "../../assets/Map.png"
 import { Avatar, AvatarImage, AvatarFallback } from '../ui/avatar'
 import Footer from './Footer'
 import axios from 'axios'
