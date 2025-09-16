@@ -13,7 +13,7 @@ const Updatehostprofile = () => {
   const dispatch = useDispatch()
   const profilepic = watch("profilepic")
   const user = useSelector((state)=>state.Auth.user)
-  console.log(user)
+  // console.log(user)
   const profileimage = user?.profilepic || unknownuser
   useEffect(()=>{
     if(user){
