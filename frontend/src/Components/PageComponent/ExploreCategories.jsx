@@ -46,7 +46,7 @@ const ExploreCategories = () => {
   return (
     <div className='flex flex-col px-5 py-5 gap-3'>
         <h3 className='text-[1.8rem] md:text-[2rem] font-[700]'>Explore Categories</h3>
-        <div className='grid grid-cols-1 gap-4 p-5 md:grid-cols-6'>
+        <div className='grid grid-cols-1 gap-4 p-5 md:grid-cols-3 xl:grid-cols-6'>
             {
                 Categories?.map((category)=>{
                     return (

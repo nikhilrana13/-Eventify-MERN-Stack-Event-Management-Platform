@@ -48,16 +48,16 @@ const Homepage = () => {
         <HeroSection userCity={userCity } />
       </section>
       {/* explore categories section */}
-      <section className=' w-full py-[2rem]  md:px-[6rem]'>
+      <section className=' w-full py-[2rem]  xl:px-[6rem]'>
         <ExploreCategories />
       </section>
       {/* popular events section */}
-      <section className='w-full py-[2rem] md:px-[6rem]'>
+      <section className='w-full py-[2rem] xl:px-[6rem]'>
         <div className='flex flex-col px-5 py-5 gap-3'>
           <h3 className='text-[1.8rem] md:text-[2rem] font-[700]'>Popular Events in {userCity || "india"}</h3>
           {
             loading ? (
-            <div className='grid grid-cols-1  mx-auto gap-8 p-3 md:p-5 lg:grid-cols-2 xl:grid-cols-3'>
+            <div className='grid grid-cols-1  mx-auto gap-8 p-3 md:p-5 lg:grid-cols-2 2xl:grid-cols-3'>
                {[...Array(6)].map((_,index)=>{
                  return (
                   <EventCardShimmer key={index} />
@@ -65,7 +65,7 @@ const Homepage = () => {
                })}
           </div>
             ):Events?.length > 0 ? (
-              <div className='grid grid-cols-1  mx-auto gap-8 p-3 md:p-5 lg:grid-cols-2 xl:grid-cols-3'>
+              <div className='grid grid-cols-1  mx-auto gap-8 p-3 md:p-5 lg:grid-cols-2 2xl:grid-cols-3'>
             {/* event cards */}
                 {
                   Events?.slice(0,6).map((event,index)=>{

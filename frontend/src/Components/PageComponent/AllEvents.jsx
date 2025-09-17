@@ -178,7 +178,7 @@ const AllEvents = ({lenis}) => {
           {
             loading ? (
               <>
-              <div className='grid grid-cols-1 gap-5  mt-8 mx-auto md:grid-cols-2'>
+              <div className='grid grid-cols-1 gap-5  mt-8 mx-auto 2xl:grid-cols-2'>
                 {[...Array(20)].map((_, index) => {
                   return (
                     <EventCard2Shimmer key={index} />
@@ -189,7 +189,7 @@ const AllEvents = ({lenis}) => {
                 </>
             ) : Events?.length > 0 ? (
               <>
-                <div className='grid grid-cols-1 gap-5  mt-8 mx-auto md:grid-cols-2'>
+                <div className='grid grid-cols-1 gap-5  mt-8 mx-auto 2xl:grid-cols-2 '>
                   {
                     Events?.map((event) => {
                       return (
